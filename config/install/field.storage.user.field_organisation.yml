@@ -2,10 +2,10 @@ langcode: da
 status: true
 dependencies:
   module:
-    - taxonomy
-id: taxonomy_term.field_user_key
-field_name: field_user_key
-entity_type: taxonomy_term
+    - user
+id: user.field_organisation
+field_name: field_organisation
+entity_type: user
 type: string
 settings:
   max_length: 255

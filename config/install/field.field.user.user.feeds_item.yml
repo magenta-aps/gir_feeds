@@ -1,15 +1,15 @@
-langcode: en
+langcode: da
 status: true
 dependencies:
   config:
-    - field.storage.taxonomy_term.feeds_item
-    - taxonomy.vocabulary.consultancy
+    - field.storage.user.feeds_item
   module:
     - feeds
-id: taxonomy_term.consultancy.feeds_item
+    - user
+id: user.user.feeds_item
 field_name: feeds_item
-entity_type: taxonomy_term
-bundle: consultancy
+entity_type: user
+bundle: user
 label: 'Feeds item'
 description: ''
 required: false
