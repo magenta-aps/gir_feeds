@@ -1,5 +1,5 @@
 {
-    "name": "drupal/gir_feeds",
+    "name": "magentaaps/gir_feeds",
     "description": "Feeds for getting data from GIR/OS2mo.",
     "type": "drupal-module",
     "license": "GPL-2.0-or-later",
